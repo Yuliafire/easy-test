@@ -1,0 +1,110 @@
+/* add roboto font */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+    max-width: 1200px;
+    background: #C0DBD9;
+    /* height: 1000px; */
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-bottom: 15px;
+}
+
+.footer {
+    width: 100%;
+    max-width: 1200px;
+    background: #C0DBD9;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.header__container,
+.footer__container {
+    width: 100%;
+    background: #7FAFF6;
+    max-width: 1170px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 390px 590px 160px;
+    grid-template-rows: auto auto;
+    gap: 15px;
+    width: 1170px;
+    height: 411px;
+    background: #B3F95A;
+  }
+
+  .grid-item {
+    background: #8AD191;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .item__text {
+    font-family: Roboto;
+    font-size: 53px;
+    font-weight: 400;
+    line-height: 62.11px;
+    color: white;
+  }
+
+  .grid-item:nth-child(4) {
+    grid-column: span 2; /* Элемент занимает 2 колонки */
+  }
+
+  .grid-item:nth-child(5) {
+    grid-column: span 1;
+  }
+
+  .flex-box {
+    padding-top: 15px;
+    padding-bottom: 100px;
+  }
+
+ .flex-box__wrapper {
+    width: 1170px;
+    height: 259px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #88B5BF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.wrapper__item {
+   background: #0D89B0;
+   width: 255px;
+   height: 199px;
+}
+
+
+
+
