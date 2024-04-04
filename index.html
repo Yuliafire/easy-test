@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div class="wrapper">
-         <section>
-          <header class="header">
-           <div class="header__container">
-           </div>
-          </header>
-      <main>
-         <div class="grid">
-           <div class="grid-item"><p class="item__text">1</p></div>
-           <div class="grid-item"><p class="item__text">2</p></div>
-           <div class="grid-item"><p class="item__text">3</p></div>
-           <div class="grid-item"><p class="item__text">4</p></div>
-           <div class="grid-item"><p class="item__text">5</p></div>
-         </div>
-         <div class="flex-box">
-           <div class="flex-box__wrapper">
-               <div class="wrapper__item"></div>
-               <div class="wrapper__item"></div>
-               <div class="wrapper__item"></div>
-               <div class="wrapper__item"></div>
-         </div>
-       </div>
-      </section>
-   </main>
-    
-   <footer class="footer">
-        <div class="footer__container"></div>
-    </footer>
-  </div>
+        <section>
+            <header class="header">
+                <div class="header__container">
+
+                    <button id="openPopupButton" class="popup-btn">
+                        <a href="#popup" class="popup-btn__link">Open Popup button</a>
+                      </button>
+
+                      <div id="popup" class="popup">
+                        <a href="#openPopupButton" class="close-btn">X</a>
+                        <span class="popup__text">Pop-up</span>
+                      </div>
+
+                </div>
+            </header>
+            <main>
+                <div class="grid">
+                    <div class="grid-item grid-item-one">
+                       
+                    </div>
+                    <div class="grid-item grid-item-two">
+                       
+                    </div>
+                    <div class="grid-item grid-item-three">
+                       
+                    </div>
+                    <div class="grid-item grid-item-four">
+                        
+                    </div>
+                    <div class="grid-item grid-item-five">
+                        
+                    </div>
+                </div>
+                <div class="flex-box">
+                    <div class="flex-box__wrapper">
+                        <div class="wrapper__item"></div>
+                        <div class="wrapper__item"></div>
+                        <div class="wrapper__item"></div>
+                        <div class="wrapper__item"></div>
+                    </div>
+                </div>
+        </section>
+        </main>
+
+        <footer class="footer">
+            <div class="footer__container"></div>
+        </footer>
+    </div>
 </body>
+
 </html>
